@@ -1,0 +1,1 @@
+{"name":"lm-steel-catalogo","version":"1.0.0","private":true,"scripts":{"dev":"node server.cjs","start":"node server.cjs","build":"node build.cjs","test":"node test.cjs"},"engines":{"node":"22.x"}}

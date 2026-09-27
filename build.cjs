@@ -1,0 +1,1 @@
+const fs=require('node:fs');fs.mkdirSync('dist',{recursive:true});for(const f of ['index.html','styles.css','catalog.js','app.js'])fs.copyFileSync(f,'dist/'+f);if(fs.existsSync('assets'))fs.cpSync('assets','dist/assets',{recursive:true});console.log('Catálogo estático listo en dist/');
